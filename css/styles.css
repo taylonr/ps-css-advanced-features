@@ -18,6 +18,7 @@ h5 {
   background-color: #c87d52;
   display: flex;
   justify-content: center;
+  box-shadow: 0px 3px;
 }
 
 img {
@@ -111,9 +112,7 @@ nav button {
   color: #FFFFFF;
   background: #c87d52;
   border: 1px solid #FFFFFF;
-  font-weight: bold ;
-  border-radius: 50%;
-  
+  font-weight: bold ;  
 }
 
 nav > ul {
