@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Bethany's Pie Shop</title>
+    <link href='https://fonts.googleapis.com/css?family=Work+Sans' rel='stylesheet' type='text/css'>
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        .flex {
+            display: flex;
+            flex-direction: column;
+            margin-left: 15px;
+        }
+
+        input {
+            box-sizing: border-box;
+            -webkit-appearance: none;
+            border: none;
+            padding: 14px 12px 12px 12px;
+            margin: 5px 25px 10px 0px;
+        }
+
+        button {
+            margin: 5px 25px 10px 0px;
+            background: #529DC8;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="mainheader">
+        <nav aria-label="Bethany's Pie Shop navigation header">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img src="images/bethanys-pie-shop-logo_horiz-white.png" width="151" height="47"
+                            alt="Bethany's Pie Shop Logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="Pie/all.html">All pies</a>
+                </li>
+                <li>
+                    <a href=contact.html>Contact</a>
+                </li>
+                <li>
+                    <a onClick="slowLoad()">Order</a>
+                </li>
+                <li class="right">
+                    <input type="search" class="searchbox" placeholder="Search our store" />
+                    <button type="submit">Search</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <div class="main include-left-nav">
+            <aside>
+                <ul>
+                    <li>
+                        <a href="Pie/cheesecakes.html">
+                            <span>Cheesecakes</span> <span class="count">6</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Pie/fruit.html"><span>Fruit Pies</span> <span class="count">6</span></a>
+                    </li>
+                    <li>
+                        <a href="Pie/seasonal.html"><span>Seasonal</span> <span class="count">4</span></a>
+                    </li>
+                </ul>
+            </aside>
+            <div style="width: 100%;">
+                <header>
+                    <h1 style="font-size:35px;color:#529DC8">Order a pie</h1>
+                </header>
+                <form>
+                    <div class="flex">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" />
+                    </div>
+                    <div class="flex">
+                        <label for="address">Address</label>
+                        <input type="text" name="address" />
+                    </div>
+                    <div class="flex">
+                        <label for="city">City</label>
+                        <input type="text" name="city" />
+                    </div>
+                    <div class="flex">
+                        <label for="pieType">Type of Pie</label>
+                        <input type="text" name="pieType" />
+                    </div>
+                    <div class="flex">
+                        <button type="submit">Order</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </article>
+</body>
+
+</html>
