@@ -20,6 +20,10 @@ h5 {
   justify-content: center;
 }
 
+img {
+  border-radius: 1%;
+}
+
 /************
 Article
 *************/
@@ -90,6 +94,7 @@ button {
   color: white;
   font-size: 1rem;
   padding: 10px;
+  border-radius: 5px;
 }
 
 /************
@@ -107,6 +112,7 @@ nav button {
   background: #c87d52;
   border: 1px solid #FFFFFF;
   font-weight: bold ;
+  border-radius: 50%;
   
 }
 
@@ -146,6 +152,7 @@ nav input {
   padding: 14px 12px 12px 12px;
   width: 200px;
   margin-right: 10px;
+  border-radius: 5px;
 }
 
 #main {
@@ -196,6 +203,8 @@ div.card {
   margin-bottom: 50px;
   flex-basis: 30%;
   width: 100%;
+  border-radius: 1%;
+  
 }
 
 div.card-inner {
