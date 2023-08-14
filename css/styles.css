@@ -1,5 +1,5 @@
 html {
-
+  height: 100%;
 }
 
 body {
@@ -7,7 +7,10 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-left: auto;
   margin-right: auto;
-  background-color: #e5e5e5;
+  background: linear-gradient(to top right, rgba(200, 125, 82, 0.5) -30%, rgba(229, 229, 229, 0.5)),
+    linear-gradient(to top left, rgba(200, 125, 82, 0.5) -30%, rgba(229, 229, 229, 0.5));
+  height: 100%;
+  background-attachment: fixed;
 }
 
 h5 {
@@ -238,7 +241,7 @@ div.card h2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   font-size: 1.25rem;
-  color: #c87d52;
+  color: black;
   display: flex;
   justify-content: center;
 }
