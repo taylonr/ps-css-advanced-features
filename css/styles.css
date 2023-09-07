@@ -13,6 +13,16 @@ body {
   background-attachment: fixed;
 }
 
+p {
+  text-align: justify;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 20px;
+  text-shadow: 0px 3px #c87d52;
+}
+
 h5 {
   display: inline;
 }
@@ -311,6 +321,7 @@ div.card h2 {
   color: black;
   display: flex;
   justify-content: center;
+  text-transform: capitalize;
 }
 
 div.card h3 {
